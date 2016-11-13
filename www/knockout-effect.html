@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-debug.js"></script>
+
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Knockout, plus loin</h1>
+        <p>
+            <button type="button" class="btn btn-primary" data-bind="
+                click: reporter,
+                effect: 'slideUp: 300',
+                effectWhen: isReporte">Reporter</button>
+            <span class="btn btn-success" data-bind="
+                visible: false,
+                effect: 'delay: 325, fadeIn',
+                effectWhen: isReporte">Reporté</span>
+        </p>
+    </div>
+</body>
+</html>

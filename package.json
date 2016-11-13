@@ -1,0 +1,18 @@
+{
+  "name": "knockout-effect",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "romain",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "bootstrap": "~3.3.7",
+    "fontawesome": "~4.5.0",
+    "knockout": "~3.4.1",
+    "knockout.punches": "~0.5.1",
+    "jquery": "~3.1.1"
+  }
+}
